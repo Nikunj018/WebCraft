@@ -1,5 +1,35 @@
 .sidebar {
-    background-color: #000000;
-    left: 0;
-    top: 50%;
+    position: absolute;
+    /* left: 1vw; */
+    bottom: 40%;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+    /* height: 100vh; */
+}
+.social-icon-list {
+    font-size: 25px;
+    list-style-type: none;
+    margin: 7px;
+    
+}
+.fab {
+    color: white;
+
+}
+.list {
+    margin: 10px 0px;
+
+}
+.fa-twitter-square:hover {
+    color:#1DA1F2 ;
+}
+.fa-linkedin:hover {
+    color:#0e76a8 ;
+}
+.fa-facebook-square:hover {
+    color:#4267B2;
+}
+.fa-youtube-square:hover {
+    color :#FF0000;
+    /* background-color: white; */
 }
