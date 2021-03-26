@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Train+One&display=swap');
+.product-view{
+    background-color: #e1e1ea; ;
+    top:10vw;
+}
+.left-content {
+    /* background-color: cadetblue; */
+    /* background-color: #e1e1ea; */
+    top:10vw;
+    font-size: 36px;
+}
+.row-heading {
+    font-family: 'Poppins', sans-serif;
+    margin:1vh;
+}
+.text-effect{
+    font-family: 'Train One', cursive;
+    font-size: 5rem;
+}
+.row-desciption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin:1.5vh;
+}
+@media only screen and (max-width: 1300px) {
+    .text-effect{
+        font-size: 4rem;
+    }
+    .row-desciption {
+        font-size: 1.5rem;
+    }
+  }
+  @media only screen and (max-width: 887px) {
+    .text-effect{
+        font-size: 3.5rem;
+    }
+    .row-desciption {
+        font-size: 1.3rem;
+    }
+  }
+  @media only screen and (max-width: 766px) {
+    .left-content {
+        padding:60px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .text-effect{
+        font-size: 3rem;
+    }
+    .row-desciption {
+        font-size: 1rem;
+    }
+    .left-content {
+        padding :25px;
+    }
+  }
