@@ -46,11 +46,11 @@ const Navbar = () => {
 
   return (
     
-  <nav className="navbar navbar-expand-lg navbar-mainbg">
+  <nav className="navbar navbar-expand-lg navbar-mainbg sticky-top">
     
       <NavLink className="navbar-brand navbar-logo" to="/" exact>
        <img src={logo} className="d-inline-block align-top nav-logo" height="30px" alt=""></img>
-        3D Shoe
+        3D Shoe Home
       </NavLink>
 
     
@@ -92,7 +92,7 @@ const Navbar = () => {
               <NavLink 
               className="nav-link" to="/view" exact>
               <i 
-              class="fab fa-unity"></i>3D View
+              class="fas fa-layer-group"></i>3D View
               </NavLink>
             </li>
 

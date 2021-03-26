@@ -1,10 +1,10 @@
 .sidebar {
-    position: absolute;
     /* left: 1vw; */
     bottom: 40%;
     background-color: black;
     border-radius: 0px 10px 10px 0px;
     /* height: 100vh; */
+    position: fixed;
 }
 .social-icon-list {
     font-size: 25px;
